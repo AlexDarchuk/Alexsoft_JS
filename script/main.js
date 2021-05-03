@@ -28,7 +28,7 @@ createItem();
 
 
 async function string() {
-  const req = await fetch("http://localhost:3000/user");
+  const req = await fetch("https://github.com/AlexDarchuk/Alexsoft_JS/blob/master/list.json");
   const json = await req.json();
   listItems.innerHTML = ''
     for (let user of json) {
